@@ -9,6 +9,9 @@ Published 2026 Canadian GST/HST/PST, CRA mileage, CPP/CPP2, QPP, EI, TFSA, and R
 - Listed in [Awesome Public Datasets](https://github.com/awesomedata/apd-core/blob/master/core/Government/Canada-2026-Tax-Payroll-Rates.yml) (Government)
 - Same files in [lead-machine-demo](https://github.com/Abstractigakis/lead-machine-demo)
 - jsDelivr: https://cdn.jsdelivr.net/gh/Abstractigakis/canada-2026-tax-rates/rates-2026.json
+- Release: https://github.com/Abstractigakis/canada-2026-tax-rates/releases/tag/2026.1
+
+If the file saved a lookup: [Pay $9 CAD](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=ericstratigakis%40gmail.com&item_name=Rates%20file%20support&amount=9.00&currency_code=CAD&no_shipping=1&button_subtype=services&return=https%3A%2F%2Fabstractigakis.com%2Fca%2Fthanks-9.html&rm=1) (PayPal goods and services).
 
 ## Files
 
