@@ -6,6 +6,7 @@ Published 2026 Canadian GST/HST/PST, CRA mileage, CPP/CPP2, QPP, EI, TFSA, and R
 
 - Dataset page: https://abstractigakis.com/data
 - Free calculators: https://abstractigakis.com/shop-tools
+- Listed in [Awesome Public Datasets](https://github.com/awesomedata/apd-core/blob/master/core/Government/Canada-2026-Tax-Payroll-Rates.yml) (Government)
 - Same files in [lead-machine-demo](https://github.com/Abstractigakis/lead-machine-demo) and [jsDelivr](https://cdn.jsdelivr.net/gh/Abstractigakis/lead-machine-demo/rates-2026.json)
 
 ## Files
