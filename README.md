@@ -7,7 +7,8 @@ Published 2026 Canadian GST/HST/PST, CRA mileage, CPP/CPP2, QPP, EI, TFSA, and R
 - Dataset page: https://abstractigakis.com/data
 - Free calculators: https://abstractigakis.com/shop-tools
 - Listed in [Awesome Public Datasets](https://github.com/awesomedata/apd-core/blob/master/core/Government/Canada-2026-Tax-Payroll-Rates.yml) (Government)
-- Same files in [lead-machine-demo](https://github.com/Abstractigakis/lead-machine-demo) and [jsDelivr](https://cdn.jsdelivr.net/gh/Abstractigakis/lead-machine-demo/rates-2026.json)
+- Same files in [lead-machine-demo](https://github.com/Abstractigakis/lead-machine-demo)
+- jsDelivr: https://cdn.jsdelivr.net/gh/Abstractigakis/canada-2026-tax-rates/rates-2026.json
 
 ## Files
 
@@ -18,7 +19,14 @@ Published 2026 Canadian GST/HST/PST, CRA mileage, CPP/CPP2, QPP, EI, TFSA, and R
 | [`payroll-2026.csv`](payroll-2026.csv) | CPP, CPP2, QPP, EI employee rates and maxes |
 
 ```bash
-curl -s https://raw.githubusercontent.com/Abstractigakis/canada-2026-tax-rates/main/rates-2026.json
+curl -s https://abstractigakis.com/rates-2026.json
+curl -s https://cdn.jsdelivr.net/gh/Abstractigakis/canada-2026-tax-rates/rates-2026.json
+pip install git+https://github.com/Abstractigakis/canada-2026-tax-rates.git
+```
+
+```python
+from canada_rates import RATES
+print(RATES["sales_tax"]["ON"])
 ```
 
 ## Figures people search

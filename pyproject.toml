@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "canada-2026-tax-rates"
+version = "2026.1.0"
+description = "Published 2026 Canadian GST/HST, mileage, CPP/EI, TFSA, and RRSP figures. Not tax advice."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Eric Stratigakis", email = "ericstratigakis@gmail.com" }]
+requires-python = ">=3.9"
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://abstractigakis.com/data"
+Repository = "https://github.com/Abstractigakis/canada-2026-tax-rates"
+
+[tool.setuptools]
+packages = ["canada_rates"]
+
+[tool.setuptools.package-data]
+canada_rates = ["rates-2026.json"]
