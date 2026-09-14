@@ -1,0 +1,22 @@
+cff-1.2.0
+message: If you use these compiled 2026 Canadian rates, please cite this file.
+title: Canada 2026 Tax and Payroll Rates
+authors:
+  - family-names: Stratigakis
+    given-names: Eric
+    email: ericstratigakis@gmail.com
+    affiliation: Vaughan, Ontario
+version: "2026.1"
+date-released: "2026-09-14"
+url: https://abstractigakis.com/data
+repository-code: https://github.com/Abstractigakis/canada-2026-tax-rates
+license: MIT
+abstract: >
+  Published 2026 Canadian GST/HST/PST, CRA mileage, CPP/EI, TFSA, and RRSP
+  figures compiled from official sources. Not tax advice.
+keywords:
+  - Canada
+  - GST
+  - HST
+  - CPP
+  - open data
