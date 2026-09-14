@@ -1,0 +1,23 @@
+{
+  "name": "@abstractigakis/canada-2026-tax-rates",
+  "version": "2026.1.0",
+  "description": "Published 2026 Canadian GST/HST, mileage, CPP/EI, TFSA, and RRSP figures. Not tax advice.",
+  "license": "MIT",
+  "homepage": "https://abstractigakis.com/data",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abstractigakis/canada-2026-tax-rates.git"
+  },
+  "files": [
+    "rates-2026.json",
+    "sales-tax-2026.csv",
+    "payroll-2026.csv"
+  ],
+  "exports": {
+    ".": "./rates-2026.json",
+    "./rates-2026.json": "./rates-2026.json"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
