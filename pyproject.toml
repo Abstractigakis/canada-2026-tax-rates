@@ -18,6 +18,7 @@ classifiers = [
 [project.urls]
 Homepage = "https://abstractigakis.com/data"
 Repository = "https://github.com/Abstractigakis/canada-2026-tax-rates"
+Funding = "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=ericstratigakis%40gmail.com&item_name=Rates%20file%20support&amount=9.00&currency_code=CAD&no_shipping=1&button_subtype=services"
 
 [tool.setuptools]
 packages = ["canada_rates"]
